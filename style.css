@@ -1,0 +1,334 @@
+/* ===========================================================================
+GENERAL STYLES
+============================================================================*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.general-section {
+    padding: 100px 0;
+}
+
+.general-section .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.general-section .title-part {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.general-section .title-part h2 {
+    color: #222;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.general-section .title-part .red-row {
+    background: #EB5757;
+    width: 31px;
+    height: 5px;
+    margin: 19px auto;
+}
+
+.general-section .title-part p {
+    font-size: 20px;
+    color: #222;
+    margin: 0;
+}
+
+
+/* ===============================================================================
+NAVIGATION
+=============================================================================== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 47px 72px;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+}
+
+nav h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 63px;
+}
+
+nav ul .active a,
+nav a:hover {
+    color: #EB5757;
+}
+
+
+/* ===============================================================================
+HEADER
+=============================================================================== */
+
+header {
+    height: calc(100vh - 120px);
+    background: url('images/header.png') center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .content {
+    width: 100%;
+    max-width: 1000px;
+}
+
+header h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header p {
+    font-size: 40px;
+    color: white;
+    margin: 16px 0 43px;
+}
+
+header .buttons a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 15px 66px;
+    display: inline-block;
+}
+
+header .buttons .primary-button {
+    color: white;
+    background: #EB5757;
+    margin-right: 21px;
+}
+
+header .buttons .secondary-button {
+    color: #EB5757;
+    background: white;
+}
+
+
+/* ===============================================================================
+CITATION
+=============================================================================== */
+
+.citation {
+    background: #EB5757;
+    padding: 39px 0;
+}
+
+.citation p {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+/* ===============================================================================
+ARTISTS SECTION
+=============================================================================== */
+
+.artists-section {
+    background: #f8f8f8;
+}
+
+.artists-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artists-section .content-part .artist-block {
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 28px 40px;
+}
+
+.artists-section .content-part .artist-block .image img {
+    width: 238px;
+    height: 238px;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+
+/* ===============================================================================
+GALLERY SECTION
+=============================================================================== */
+
+.gallery-section {
+    background: rgba(235, 87, 87, 0.1);
+}
+
+.gallery-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-section .content-part .gallery-block {
+    box-sizing: border-box;
+    margin: 9px;
+}
+
+.gallery-section .content-part .gallery-block .image img {
+    width: 238px;
+    height: 238px;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ===============================================================================
+TICKETS SECTION
+=============================================================================== */
+.tickets-section {
+    background: #F8F8F8;
+}
+
+/* .tickets-section .title-part p{
+    margin: 0px 33;
+} */
+
+.tickets-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tickets-section .content-part .ticket-block {
+    box-sizing: border-box;
+    width: 33%;
+    min-width: 400px;
+}
+
+.tickets-section .content-part .ticket-block .ticket-content {
+    margin: 9px;
+    background: #FFFFFF;
+    padding: 31px 0px;
+}
+
+.tickets-section .content-part .ticket-block .thin-grey-row {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 0.3px;
+    margin: 31px 0;
+}
+
+.tickets-section .content-part .ticket-block .ticket-header h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tickets-section .content-part .ticket-block .ticket-body p {
+    text-align: center;
+    margin: 25px 0px;
+    margin: 0;
+}
+
+.tickets-section .content-part .ticket-block .ticket-body h2 {
+    text-align: center;
+}
+
+.tickets-section .content-part .ticket-block .ticket-body h2 span {
+    color: #EB5757;
+}
+
+.tickets-section .content-part .ticket-block .buttons {
+    text-align: center;
+}
+
+.tickets-section .content-part .ticket-block .buttons a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 63px;
+    display: inline-block;
+}
+
+.tickets-section .content-part .ticket-block .buttons .primary-button {
+    color: white;
+    background: #EB5757;
+}
+
+/* ===============================================================================
+ADDRESS SECTION
+=============================================================================== */
+.address-section {
+    background: rgba(235, 87, 87, 0.1);
+}
+
+.address-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.address-section .content-part .address-block {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.address-section .content-part .address-block .address-content {
+    height: 443px;
+}
+
+.address-section .content-part .address-block .address-content iframe{
+    width: 100%;
+    height: 100%;
+}
