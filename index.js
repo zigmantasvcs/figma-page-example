@@ -3,7 +3,6 @@ document.querySelectorAll(".artist-block img, .gallery-block img").forEach(funct
         document.getElementById("modal-image").src = element.src;
         document.querySelector(".modal").style.display = "flex";
         document.querySelector(".modal").classList.add("fadein");
-
     }    
 })
 
