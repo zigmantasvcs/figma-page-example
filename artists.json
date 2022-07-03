@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Tomke",
+        "desription": "Elementum hendrerit lectus laoreet gravida",
+        "image": "https://github.com/zigmantasvcs/figma-page-example/blob/master/images/artist1.jpg?raw=true"
+    },
+    {
+        "name": "Upce",
+        "desription": "Elementum hendrerit lectus gravida",
+        "image": "https://github.com/zigmantasvcs/figma-page-example/blob/master/images/artist2.jpg?raw=true"
+    },
+    {
+        "name": "Hendrei",
+        "desription": "Hendrerit lectus laoreet gravida",
+        "image": "https://github.com/zigmantasvcs/figma-page-example/blob/master/images/artist3.jpg?raw=true"
+    },
+    {
+        "name": "Polvek",
+        "desription": "Elementum hendrerit lectus laoreet",
+        "image": "https://github.com/zigmantasvcs/figma-page-example/blob/master/images/artist4.jpg?raw=true"
+    },
+    {
+        "name": "Pugr",
+        "desription": "Elementum hendrerit gravida",
+        "image": "https://github.com/zigmantasvcs/figma-page-example/blob/master/images/artist5.jpg?raw=true"
+    },
+    {
+        "name": "Lajs",
+        "desription": "Hendrerit laoreet gravida",
+        "image": "https://github.com/zigmantasvcs/figma-page-example/blob/master/images/artist6.jpg?raw=true"
+    },
+    {
+        "name": "Lawew",
+        "desription": "Elementum hendrerit lectus laoreet",
+        "image": "https://github.com/zigmantasvcs/figma-page-example/blob/master/images/artist7.jpg?raw=true"
+    }
+]
